@@ -110,6 +110,8 @@ const ShellyGas = ({device, http, tile, mqtt, useHttp, useMqtt, useMqttSub}) => 
     }
 
     const show_actions = () => {
+        return null
+        /*
         return (
             <div className="tile-actions">
                 <span title="Mute Alarm Speaker of this Device" style={alarm_state_style} className='material-icons pointer' onClick={() => handleClickMute()}>volume_off</span> &nbsp;
@@ -117,6 +119,7 @@ const ShellyGas = ({device, http, tile, mqtt, useHttp, useMqtt, useMqttSub}) => 
                 <span title="Un-Mute Alarm Speaker of this Device" style={alarm_state_style} className='material-icons pointer' onClick={() => handleClickUnMute()}>volume_up</span>
             </div>
         )
+        */
     }
 
     return (
