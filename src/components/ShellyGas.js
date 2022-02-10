@@ -103,7 +103,7 @@ const ShellyGas = ({device, http, tile, mqtt, useHttp, useMqtt, useMqttSub}) => 
                 <span 
                     title={`Alarm: ${alarm_state}`}
                     style={alarm_state_style} 
-                    className="material-icons f75"
+                    className="material-icons f125"
                 >blur_on</span>
             </div>
         )

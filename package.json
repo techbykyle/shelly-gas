@@ -1,7 +1,7 @@
 {
   "name": "shelly-gas",
   "federated-module-name": "ShellyGas",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gas sensor indicator for a Shelly Gas smart device.",
   "main": "index.js",
   "scripts": {
